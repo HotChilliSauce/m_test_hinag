@@ -1,0 +1,57 @@
+@charset "utf-8";
+@media screen and (max-width:768px){
+    #container{
+        padding-top: 50px;
+    }
+    
+        /*jquery*/
+    .prevBtn, .nextBtn{
+        cursor: pointer;
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        margin-top: -15px;
+        z-index: 1;
+    }
+    .slick-dots{
+        text-align: center;
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+    }
+    .slick-dots li{
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        background: #ddd;
+        border-radius: 50%;
+        margin: 0 3px;
+        cursor: pointer;
+    }
+    .slick-dots li.slick-active{
+        background: #333;
+    }
+    .slick-dots button{
+        border: 0;
+        font-size: 0;
+        padding: 0;
+    }
+    /*mainSlider*/
+    .mainSliderBox{
+        margin-bottom: 30px;
+    }
+    .sliderM img{
+        width: 100%;
+    }
+    
+    /*mainRow01*/
+    .mainRow01{
+        padding: 10px 0;
+    }
+    .row01Box{
+        width: 100%;
+        height: 100px;
+        background: 0;
+    }
+    
+}
