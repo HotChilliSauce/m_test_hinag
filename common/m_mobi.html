@@ -1,0 +1,61 @@
+<!---------------------모바일-------------------------->
+<div id="mobi">
+<!--헤더시작-->
+<header id="mHeader">
+    <div class="headerTop">
+        <!--로고시작-->
+        <h1><a href="../index.html">로고영역</a></h1>
+        <!--로고끝-->
+        <!--패널시작-->
+        <div class="pannel">
+            <a href="#" onclick="openNav()">패널영역</a>
+        </div>
+        <!--패널끝-->
+    </div>
+</header>
+<!--헤더끝-->
+    <!--메뉴바-->
+<ul class="mapBar">
+    <li class="mapBarHome">
+        <a href="../index.html">home영역</a>
+    </li>
+    <li>
+        <p><a href="#">회사소개</a></p>
+    </li>
+    <li>
+        <p class="mapBarPage">HiNAG WAY</p>
+    </li>
+</ul>
+<!--메뉴바끝-->
+<!--pannel-->
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul>
+            <img src="../images/common/logo02.png"/>
+            <h3>회사소개/고객지원</h3>
+            <li><a href="../sub/company.html">HiNAG WAY</a></li>
+            <li><a href="../sub/map.html">찾아오시는 길</a></li>
+            <h3>제품</h3>
+            <li><a href="../sub/nicotine01.html">니코틴</a></li>
+            <li><a href="../sub/oem01.html">OEM</a></li>
+            <li><a href="../sub/juice01.html">단일액상</a></li>
+            <li><a href="../sub/juice02.html">조합액상</a></li>
+            <li><a href="../sub/juice03.html">아이스액상</a></li>
+            <li><a href="../sub/flavour.html">향료</a></li>
+            <li><a href="../sub/base01.html">베이스</a></li>
+            <h3>홍보</h3>
+            <li><a href="../sub/mag.html">매거진</a></li>
+        </ul>
+</div>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "80%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<!--pannel끝-->
+</div>
+<!---------------------모바일-------------------------->

@@ -34,6 +34,38 @@
         display: none;
     }
     
+    /*실험*/
+    #mHeader{
+        width: 100%;
+        height: 50px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 10;
+    }
+    #mHeader .headerTop{
+        height: 50px;
+        background: #fff;
+        position: relative;
+        border-bottom: 1px solid #ccc;
+    }
+    #mHeader .headerTop h1{
+        width: 89px;
+        height: 23px;
+        background: url(../images/common/logo.png) no-repeat;
+        background-size: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -11px;
+        margin-left: -45px;
+        text-indent: -9999px;
+    }
+    #mHeader h1 a{
+        height: 100%;
+        display: block;
+    }
+    
     /*pannel*/
     .pannel{
         display: block;
@@ -69,7 +101,7 @@
     .sidenav a {
         /*padding: 0 5px 2px 5px;*/
         text-decoration: none;
-        font-size: 17px;
+        font-size: 15px;
         color: #414141;
         display: block;
         transition: 0.3s;
@@ -94,11 +126,11 @@
     }
     .sidenav ul li a{
         font-family: 'NanumSquare';
-        font-weight: 700;
+        font-weight: 500;
         padding: 3px 0;
     }
     .sidenav h3{
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 900;
         font-family: 'NanumSquare';
         color: #414141;
@@ -117,7 +149,7 @@
         margin-left: -45px;
     }
     
-    /*팝업*/
+    /*네비게이션 팝업*/
     .navWrap{
         display: none;
     }
@@ -129,7 +161,7 @@
         line-height: 40px;
         margin: 0 auto;
         position: relative;
-        margin-top: 51px;
+        margin-top: 50px;
     }
     .mapBar li{
         display: inline-block;
@@ -155,6 +187,7 @@
     }
     .mapBar li p{
         font-size: 15px;
+        font-family: "GoyangIlsan";
         margin-left: 5px;
     }
     .mapBar li p a{

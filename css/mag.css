@@ -241,3 +241,10 @@ figure.snip1283.hover figcaption {
 
 
 
+/*모바일관련*/
+#mobi{
+    display: none;
+}
+#mFooter{
+    display: none;
+}

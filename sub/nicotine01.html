@@ -10,6 +10,9 @@
 <link rel="stylesheet" href="../css/default.css" type="text/css"/>
 <link rel="stylesheet" href="../css/slick.css" type="text/css"/>
 <link rel="stylesheet" href="../css/nicotine01.css" type="text/css"/>
+<link rel="stylesheet" href="../m_css/m_nicotine.css" type="text/css"/>
+<link rel="stylesheet" href="../m_css/m_include.css" type="text/css"/>
+<link rel="stylesheet" href="../m_css/m_default.css" type="text/css"/>
 <link rel="stylesheet" href="../css/loading.css" type="text/css"/>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="shortcut icon" href="../images/common/hinag_favicon32_R7b_icon.ico" type="image/x-icon"/>
@@ -25,6 +28,7 @@ $(document).ready( function() {
 
 $("#header").load("../common/header.html");
 $("#footer").load("../common/footer.html");
+$("#mFooter").load("../common/footer.html");
 
 }); 
 </script>
@@ -94,5 +98,117 @@ $("#footer").load("../common/footer.html");
 <!--footer끝-->
 </div>
 <!--전체끝-->
+    
+<!-------------------------모바일 전체시작------------------------->
+<div id="mWrap">
+    
+<!--헤더시작-->
+<header id="header">
+    <div class="headerTop">
+        <!--로고시작-->
+        <h1><a href="../index.html">로고영역</a></h1>
+        <!--로고끝-->
+        <!--패널시작-->
+        <div class="pannel">
+            <a href="#" onclick="openNav()">패널영역</a>
+        </div>
+        <!--패널끝-->
+    </div>
+</header>
+<!--헤더끝-->
+<!--메뉴바-->
+<ul class="mapBar">
+    <li class="mapBarHome">
+        <a href="../index.html">home영역</a>
+    </li>
+    <li>
+        <p><a href="#">제품</a></p>
+    </li>
+    <li>
+        <p class="mapBarPage">니코틴</p>
+    </li>
+</ul>
+<!--메뉴바끝-->
+<!--컨테이너시작-->
+<div id="container">
+    <div class="subRow">
+        <h3>HiNAG's Nicotine</h3>
+        <div class="subRow01">
+            <div class="row01Img">
+                <img src="../images/m/sub/m_nico01.jpg" alt="줄기니코틴"/>
+            </div>
+            <p>
+                하이낙의 니코틴은 불순물 0%에 가까운<br/>
+                순도 99.9%의 천연 줄기 니코틴만 사용합니다.<br/>
+            </p>
+            <p>
+                순도 99.9%의 천연 줄기 니코틴만을 사용하여<br/>
+                240mg 희석니코틴을 제조합니다.<br/>
+            </p>
+            <p>
+                퓨어 니코틴을 사용하여 만드는 니코틴 베이스는<br/>
+                보다 뛰어난 품질을 보장합니다.<br/>
+                (업체 맞춤형 농도 3mg~9.9mg 사이로 제작가능)
+            </p>
+        </div>
+        <div class="subRow02">
+            <div class="row02Img">
+                <img src="../images/m/sub/m_nico02.jpg" alt="줄기니코틴"/>
+            </div>
+            <p>
+                새롭게 떠오르는 니코틴, 솔트 니코틴 입니다<br/>
+                하이리큐에서 개발에 성공하여<br/>
+                성분검사까지 전부 완료했습니다.<br/>
+            </p>
+            <p>
+                기존의 전자담배에서 느끼지 못했던 충족감을<br/>
+                솔트 니코틴에서는 느낄 수 있습니다.<br/>
+            </p>
+            <p>
+                - 솔트 니코틴 베이스 판매<br/>
+                - 솔트 니코틴 액상 OEM 추후 추가 예정
+            </p>
+        </div>
+    </div>
+</div>
+<!--컨테이너끝-->
+<!--푸터시작-->
+<footer id="mFooter">
+</footer>
+<!--푸터끝-->
+    <!--pannel-->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul>
+            <img src="../images/common/logo02.png"/>
+            <h3>회사소개/고객지원</h3>
+            <li><a href="../sub/company.html">HiNAG WAY</a></li>
+            <li><a href="../sub/map.html">찾아오시는 길</a></li>
+            <h3>제품</h3>
+            <li><a href="../sub/nicotine01.html">니코틴</a></li>
+            <li><a href="../sub/oem01.html">OEM</a></li>
+            <li><a href="../sub/juice01.html">단일액상</a></li>
+            <li><a href="../sub/juice02.html">조합액상</a></li>
+            <li><a href="../sub/juice03.html">아이스액상</a></li>
+            <li><a href="../sub/flavour.html">향료</a></li>
+            <li><a href="../sub/base01.html">베이스</a></li>
+            <h3>홍보</h3>
+            <li><a href="../sub/mag.html">매거진</a></li>
+        </ul>
+    </div>
+
+    <script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "80%";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+    <!--pannel끝-->
+    
+    </div>
+<!--모바일전체끝-->
 </body>
 </html>
