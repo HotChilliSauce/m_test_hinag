@@ -18,13 +18,13 @@
     .subNav{
         display: none;
     }
-    .subWrap{
-        width: calc(100% - 80px);
-        margin: 0 auto
-    }
     /*컨테이너*/
     #container{
         font-family: "GoyangIlsan";
+    }
+    .subWrap{
+        width: calc(100% - 40px);
+        margin: 0 auto
     }
     .subTit{
         width: calc(100% - 80px);
@@ -45,28 +45,24 @@
         font-weight: 600;
         margin-bottom: 30px;
     }
-    .subInfo h4{
-        font-size: 14px;
-        line-height: 18px;
-    }
     .infoTit{
         margin-bottom: 20px;
-    }
-    .subInfo ul{
-        margin-bottom: 0;
-    }
-    .subInfo ul li{
-        width: calc(50% - 10px);
-        padding: 14px 0;
-        margin-right: 20px;
     }
     .subInfo img{
         width: 100%;
     }
-    .subInfo ul li:nth-child(2n+0){
-        margin-right: 0;
-    }
     .info01{
         padding-top: 30px;
     }
+    .infoIn01 p{
+        font-family: "GoyangIlsan";
+        font-size: 14px;
+        line-height: 25px;
+        margin: 20px 0;
+        padding-bottom: 30px;
+    }
+    .infoIn01 .base01 {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    
 }

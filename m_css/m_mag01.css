@@ -21,8 +21,8 @@
     }
     /**/
     .subWrap{
-        width: calc(100% - 80px);
-        margin: 0 auto
+        width: calc(100% - 20px);
+        margin: 0 auto;
     }
     .subInfo{
         padding-top: 0;
@@ -35,9 +35,6 @@
         text-align: center;
         margin-bottom: 0;
     }
-    .companyInfo img{
-        width: 100%;
-    }
     .infoTit{
         width: 100%;
         border-bottom: 0;
@@ -45,34 +42,13 @@
     }
     .infoIn01{
         padding-top: 30px;
-        margin-bottom: 10px;
-        margin-left: -20px;
     }
-    
-    /*figure*/
-    figure.snip1283 {
-        min-width: 100%;
-        max-width: 100%;
+    .infoIn01 ul{}
+    .infoIn01 ul li{
+        margin: 20px 0;
     }
-    figure.snip1283 h3{
-        font-size: 18px;
-        line-height: 18px;
-    }
-    figure.snip1283 p {
-        display: none;
-    }
-    figure.snip1283 .read-more {
-        border: 2px solid #ffffff;
-        padding: 0.5em 1em;
-        font-size: 0.8em;
-        text-decoration: none;
-        color: #ffffff;
-        display: inline-block;
-        position: absolute;
-        bottom: 9px;
-        left: 30px;
-        width: 150px;
-        text-align: center;
+    .infoIn01 img{
+        width: 100%;
     }
     
 }

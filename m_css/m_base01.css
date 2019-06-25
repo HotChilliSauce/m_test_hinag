@@ -4,8 +4,8 @@
     #container{
         margin-bottom: 0;
     }
-    .subRow{
-        width: calc(100% - 80px);
+    .subWrap{
+        width: calc(100% - 40px);
         margin: 0 auto;
     }
     .subRow h3{
@@ -26,12 +26,6 @@
     .row01Img{
         margin-bottom: 13px;
     }
-    .subRow p{
-        font-family: "GoyangIlsan";
-        font-size: 14px;
-        line-height: 25px;
-        margin: 20px 0;
-    }
     .subRow02{
         border-top: 1px solid #d5d5d5;
         padding-top: 80px;
@@ -46,6 +40,10 @@
         margin-bottom: 50px;
     }
     .infoIn01 p {
-    padding-bottom: 30px;
+        font-family: "GoyangIlsan";
+        font-size: 14px;
+        line-height: 25px;
+        margin: 20px 0;
+        padding-bottom: 30px;
 }
 }

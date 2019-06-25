@@ -101,7 +101,7 @@
     .sidenav a {
         /*padding: 0 5px 2px 5px;*/
         text-decoration: none;
-        font-size: 15px;
+        font-size: 13px;
         color: #414141;
         display: block;
         transition: 0.3s;
@@ -123,6 +123,8 @@
     }
     .sidenav ul li{
         padding: 5px 12px;
+        background: #e3e3e3;
+        border-bottom: 2px solid #efefef;
     }
     .sidenav ul li a{
         font-family: 'NanumSquare';
@@ -130,13 +132,14 @@
         padding: 3px 0;
     }
     .sidenav h3{
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 900;
         font-family: 'NanumSquare';
         color: #414141;
-        border-top: 3px solid #efefef;
-        border-bottom: 3px solid #efefef;
-        margin: 9px 0 5px 0;
+        background: #efefef;
+        /*border-top: 3px solid #efefef;*/
+        /*border-bottom: 2px solid #e3e3e3;*/
+        margin: 20px 0 1px 0;
         padding: 6px 0 4px 11px;
     }
     .sidenav img{
@@ -198,12 +201,30 @@
     }
     
     /*footer*/
-    #mFooter{
-        margin-top: 50px;
+    #footer{
+        margin-top: 70px;
         bottom: 0;
     }
-    #mFooter .footerTop{
-        display: none;
+    .footerTop{
+        padding: 10px 0;
+        background: #f6f6f6;
+    }
+    .footerBnr{
+        width: calc(100% - 20px);
+        margin: 0 auto;
+    }
+    .footerBnr li{
+        float: left;
+        margin: 5px 5px;
+    }
+    .footerBnr li:last{
+        margin-right: 0;
+    }
+    .footerBnr li a{
+        display: block;
+    }
+    .footerBnr li a img{
+        width: 100%;
     }
     .footerBottom{
         width: 100%;

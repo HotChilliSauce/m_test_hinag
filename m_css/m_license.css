@@ -39,6 +39,7 @@
     }
     .subInfo{
         padding-top: 0;
+        padding-bottom: 400px;
     }
     .subInfo h2{
         font-size: 20px;
@@ -65,8 +66,5 @@
     }
     .subInfo ul li:nth-child(2n+0){
         margin-right: 0;
-    }
-    .info01{
-        padding-top: 30px;
     }
 }

@@ -1,5 +1,48 @@
 @charset "utf-8";
 @media screen and (max-width:768px){
+    
+    body,p,h1,h2,h3,h4,h5,h6{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        max-width: 1000px;
+        min-width: 100%;
+        margin: 0 auto;
+        font-family: 'NotoSans','GoyangIlsan',sans-serif;
+    }
+    ul,dl,dt,dd,ol{
+        margin:0;
+        padding:0;
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+    .cf:after{
+        content: "";
+        display: block;
+        clear: both;
+}
+    .inner{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #wrap{
+        display: none;
+    }
+    #mWrap{
+        display: block;
+        width: 100%;
+    }
+    #container{
+        border-top: 1px solid #ccc;
+        margin-bottom: 103px;
+        padding-top: 0;
+        font-family: "GoyangIlsan";
+    }
+    
     #container{
         padding-top: 50px;
     }
@@ -164,7 +207,7 @@
     /*mainRow04*/
     .mainRow04{
         width: calc(100% - 40px);
-        padding: 40px 0 0 0;
+        padding: 60px 0 0 0;
     }
     .row04Info{
         display: none;
@@ -178,22 +221,36 @@
         height: auto;
         margin-right: 5px;
         float: left;
+        position: relative;
     }
     .mRow04Info a{
         color: #fff;
         display: block;
         height: 100%;
-        background: rgba(255,255,255,0.3);
+        background: rgba(255,255,255,0.1);
         /*box-shadow: 2px 2px 12px -1px #fff inset;*/
         border: 1px solid #fff;
-        box-shadow: 0px 0px 20px -4px rgba(200,200,200,0.5);
+        box-shadow: 0px 0px 20px 3px rgba(200,200,200,0.5);
+        
+        text-indent: -9999px;
+        padding: 40% 0;
     }
-    .mRow04Info h3{
+    /*.mRow04Info h3{
         color: #343434;
         font-size: 15px;
         font-family: "GoyangDeogyang";
         padding: 43% 0;
         margin-bottom: 0;
+    }*/
+    .mRow04Info h3{
+        width: 100%;
+        background: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin-bottom: -36px;
+        padding: 5px 0;
+        
     }
     .mRow04Info .row04Box01{
         background: url(../images/row04Img01_02.jpg)no-repeat;
@@ -211,7 +268,6 @@
     .mainRow03{
         display: none;
     }
-    
     
     
 }
