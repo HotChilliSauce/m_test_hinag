@@ -123,6 +123,9 @@
 }
 
 /*footer*/
+#mFooter{
+    display: none;
+}
 #footer{
     margin-top: 150px;
 }

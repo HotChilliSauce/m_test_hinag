@@ -46,6 +46,9 @@
     #container{
         padding-top: 50px;
     }
+    #footer{
+        display: block;
+    }
     
     /*popup*/
     #popLayer{
