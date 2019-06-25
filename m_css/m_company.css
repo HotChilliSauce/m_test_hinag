@@ -51,4 +51,10 @@
         font-size: 15px;
         line-height: 26px;
     }
+    #wrap{
+        display: none;
+    }
+    #mWrap{
+        display: block;
+    }
 }

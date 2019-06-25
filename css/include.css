@@ -1,5 +1,4 @@
 @charset "utf-8";
-@media screen and (min-width:768px){
 /*header*/
 #header{
     height: 80px;
@@ -219,5 +218,4 @@
 }
 .footerInfo .footerSns li:after{
     display: none;
-}
 }
