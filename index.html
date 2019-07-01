@@ -42,7 +42,7 @@
         slidesToScroll: 1,
         autoplay:true,
         autoplaySpeed:3000,
-        arrows:false,
+        arrows:false
         });
         
         $(".slider02").slick({
@@ -52,7 +52,7 @@
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
-        arrows: false,
+        arrows: false
         });
         
         $(".sliderM").slick({
@@ -62,8 +62,22 @@
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 3000,
-        arrows: false,
+        arrows: false
         });
+        
+        $('.sliderIcon').slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        centerMode: true,
+        variableWidth: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        prevArrow:'<i class="fas fa-chevron-left prevBtn"></i>',
+        nextArrow:'<i class=" fas fa-chevron-right nextBtn"></i>'
+        });
+    
 
         /*mainbanner fadein*/
         $(function(){
@@ -412,14 +426,29 @@
 <!--컨테이너끝-->
     <!--footer시작-->
     <footer id="footer">
+        <div class="footerTit">
+            <h3>HiNAG's PartnerShip Members</h3>
+        </div>
         <!--footerTop시작-->
         <div class="footerTop inner">
-            <ul class="footerBnr">
+            <!--<ul class="footerBnr">
                 <li><a href="#"><img src="images/common/footerBnrLogo01.png"/></a></li>
                 <li><a href="#"><img src="images/common/footerBnrLogo02.png"/></a></li>
                 <li><a href="#"><img src="images/common/footerBnrLogo03.png"/></a></li>
                 <li><a href="#"><img src="images/common/footerBnrLogo04.png"/></a></li>
-            </ul>
+                <li><a href="#"><img src="images/common/footerBnrLogo05.png"/></a></li>
+                <li><a href="#"><img src="images/common/footerBnrLogo06.png"/></a></li>
+                <li><a href="#"><img src="images/common/footerBnrLogo07.png"/></a></li>
+            </ul>-->
+            <div class="sliderIcon">
+                <li><a href="#"><img src="images/common/footerBnrLogo01.png" /></a></li>
+                <li><a href="#"><img src="images/common/footerBnrLogo02.png" /></a></li>
+                <li><a href="#"><img src="images/common/footerBnrLogo03.png" /></a></li>
+                <li><a href="#"><img src="images/common/footerBnrLogo04.png" /></a></li>
+                <li><a href="#"><img src="images/common/footerBnrLogo05.png" /></a></li>
+                <li><a href="#"><img src="images/common/footerBnrLogo06.png" /></a></li>
+                <li><a href="#"><img src="images/common/footerBnrLogo07.png" /></a></li>
+            </div>
         </div>
         <!--footerTop끝-->
         <!--footerBottom시작-->
@@ -454,12 +483,12 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://www.instagram.com/hinag2017">
                             <img src="images/common/footerSnsLogo02.png" alt="인스타그램"/>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://blog.naver.com/hinag">
                             <img src="images/common/footerSnsLogo03.png" alt="블로그"/>
                         </a>
                     </li>
@@ -731,7 +760,7 @@
 </div>
 <!--컨테이너끝-->
     <!--footer시작-->
-    <footer id="footer">
+    <footer id="mfooter">
         <!--footerTop시작-->
         <div class="footerTop inner">
             <ul class="footerBnr cf">
@@ -740,6 +769,8 @@
                 <li><a href="#"><img src="images/common/footerBnrLogo03.png" style="width:139.5px; height:45px;"/></a></li>
                 <li><a href="#"><img src="images/common/footerBnrLogo04.png" style="width:45px; height:45px;"/></a></li>
                 <li><a href="#"><img src="images/common/footerBnrLogo05.png" style="width:45px; height:45px;"/></a></li>
+                <li><a href="#"><img src="images/common/footerBnrLogo06.png" style="width:98.5px; height:45px;"/></a></li>
+                <li><a href="#"><img src="images/common/footerBnrLogo07.png" style="width:118px; height:45px;"/></a></li>
             </ul>
         </div>
         <!--footerTop끝-->
@@ -761,7 +792,7 @@
                         <li>사업자등록번호 : 268-88-00977</li>
                     </ul>
                     <ul class="cf">
-                        <li class="first">대표전화 : 070-7006-4042</li>
+                        <li class="first"><a href="tel:07070064042">대표전화 : 070-7006-4042</a></li>
                         <li>팩스 : 0504-488-6380</li>
                     </ul>
                     <div>
@@ -775,12 +806,12 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://www.instagram.com/hinag2017">
                             <img src="images/common/footerSnsLogo02.png" alt="인스타그램"/>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="https://blog.naver.com/hinag">
                             <img src="images/common/footerSnsLogo03.png" alt="블로그"/>
                         </a>
                     </li>
@@ -795,11 +826,11 @@
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <ul>
             <img src="images/common/logo02.png"/>
-            <h3>회사소개/고객지원</h3>
+            <h3>HiNAG소개/고객지원</h3>
             <li><a href="sub/company.html">HiNAG WAY</a></li>
             <li><a href="sub/license.html">라이선스</a></li>
-            <li><a href="sub/map.html">찾아오시는 길</a></li>
-            <h3>제품</h3>
+            <li><a href="sub/map.html">오시는 길</a></li>
+            <h3>PRODUCT</h3>
             <li><a href="sub/nicotine01.html">니코틴
                 <br/>(Stalk Nicotine/Stalk Nicotine Salt)</a></li>
             <li><a href="sub/oem01.html">OEM(업체·주문제작)</a></li>
@@ -808,7 +839,9 @@
             <li><a href="sub/juice03.html">아이스액상</a></li>
             <li><a href="sub/flavour.html">향료</a></li>
             <li><a href="sub/base01.html">Nico베이스</a></li>
-            <h3>홍보</h3>
+            <h3>Promotion</h3>
+            <li><a href="sub/mag.html">Magazine</a></li>
+            <h3>HiNAG's Partner</h3>
             <li><a href="sub/mag.html">Magazine</a></li>
         </ul>
     </div>

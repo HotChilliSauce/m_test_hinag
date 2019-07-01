@@ -7,7 +7,7 @@ body,h1,h2,h3,h4,h5,h6,p{
 }
 body{
     min-width: 1000px;
-    font-family: 'NotoSans', 'Noto Serif KR', 'sans-serif';
+    font-family: 'GoyangIlsan', 'NotoSans', 'Noto Serif KR', 'sans-serif';
 }
 ul{
     margin: 0;

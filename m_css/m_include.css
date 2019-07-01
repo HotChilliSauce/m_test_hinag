@@ -265,6 +265,9 @@
         padding: 3px 0;
         font-weight: 100;
     }
+    .infoTxt ul li a{
+        color: #e0e0e0;
+    }
     .infoTxt p{
         color: #e0e0e0;
         font-size: 12px;
