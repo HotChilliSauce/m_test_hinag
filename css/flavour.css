@@ -1,8 +1,4 @@
 @charset "utf-8";
-#container{
-    padding-top: 0;
- }
-
 /*상단메뉴 hover*/
 .gnb .gnbAct .on2{
     color: #008cff;

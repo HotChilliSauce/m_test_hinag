@@ -30,6 +30,19 @@ $("#header").load("../common/header.html");
 $("#footer").load("../common/footer.html");
 $("#mFooter").load("../common/m_footer.html");
 $("#mobi").load("../common/m_mobi.html");
+    
+$('.sliderIcon').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    centerMode: true,
+    variableWidth: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    prevArrow:'<i class="fas fa-chevron-left prevBtn"></i>',
+    nextArrow:'<i class="fas fa-chevron-right nextBtn"></i>'
+});
 
 }); 
 </script>
